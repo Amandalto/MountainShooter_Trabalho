@@ -36,7 +36,7 @@ ENTITY_SPEED = {
     'Enemy1': 1,
     'Enemy1Shot': 5,
     'Enemy2': 1,
-    'Enemy2Shot': 2,
+    'Enemy2Shot': 6,
 	'Enemy3': 1,
     'Enemy3Shot': 8,
 }
@@ -96,7 +96,7 @@ ENTITY_DAMAGE = {
     'Enemy1': 1,
     'Enemy1Shot': 20,
     'Enemy2': 1,
-    'Enemy2Shot': 15,
+    'Enemy2Shot': 25,
 	'Enemy3': 1,
     'Enemy3Shot': 30,
 }
@@ -125,18 +125,18 @@ ENTITY_SCORE = {
     'Player2Shot': 0,
     'Enemy1': 100,
     'Enemy1Shot': 0,
-    'Enemy2': 125,
+    'Enemy2': 120,
     'Enemy2Shot': 0,
-	'Enemy3': 130,
+	'Enemy3': 150,
     'Enemy3Shot': 0,
 }
 
 ENTITY_SHOT_DELAY = {
-    'Player1': 16,
+    'Player1': 15,
     'Player2': 15,
     'Enemy1': 100,
-    'Enemy2': 150,
-	'Enemy3': 80,
+    'Enemy2': 110,
+	'Enemy3': 90,
 }
 
 # M
@@ -163,8 +163,8 @@ SPAWN_TIME = 4000
 
 # T
 TIMEOUT_STEP = 100  # 100ms
-TIMEOUT_LEVEL = 10000  # 15s
-TIMEOUT_LEVEL3 = 15000  # 30 segundos <---
+TIMEOUT_LEVEL = 15000  # 15s
+TIMEOUT_LEVEL3 = 30000  # 30 segundos, o dobro dos level 1 e 2 <---
 
 # W
 WIN_WIDTH = 576
