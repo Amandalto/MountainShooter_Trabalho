@@ -6,7 +6,8 @@ C_YELLOW = (255, 255, 128)
 C_WHITE = (255, 255, 255)
 C_GREEN = (0, 128, 0)
 C_CYAN = (0, 128, 128)
-C_BLUE = (0, 0, 255)
+C_BLUE = (0, 0, 255) #Adição da cor azul para os nomes e RU's
+C_RED = (255,0,0) #Adicionado para o texto de Game Over
 
 # E
 EVENT_ENEMY = pygame.USEREVENT + 1
@@ -34,7 +35,7 @@ ENTITY_SPEED = {
     'Player2': 3,
     'Player2Shot': 3,
     'Enemy1': 1,
-    'Enemy1Shot': 5,
+    'Enemy1Shot': 6,
     'Enemy2': 1,
     'Enemy2Shot': 6,
 	'Enemy3': 1,
@@ -59,15 +60,15 @@ ENTITY_HEALTH = {
     'Level3Bg2': 999,
     'Level3Bg3': 999,
     'Level3Bg4': 999,
-    'Player1': 300,
+    'Player1': 400, # <--
     'Player1Shot': 1,
-    'Player2': 300,
+    'Player2': 400,
     'Player2Shot': 1,
     'Enemy1': 50,
     'Enemy1Shot': 1,
-    'Enemy2': 60,
+    'Enemy2': 80,
     'Enemy2Shot': 1,
-	'Enemy3': 80,
+	'Enemy3': 100,
     'Enemy3Shot': 1,
 }
 
@@ -90,7 +91,7 @@ ENTITY_DAMAGE = {
     'Level3Bg3': 0,
     'Level3Bg4': 0,
     'Player1': 1,
-    'Player1Shot': 25,
+    'Player1Shot': 20,
     'Player2': 1,
     'Player2Shot': 20,
     'Enemy1': 1,
@@ -135,8 +136,8 @@ ENTITY_SHOT_DELAY = {
     'Player1': 15,
     'Player2': 15,
     'Enemy1': 100,
-    'Enemy2': 110,
-	'Enemy3': 90,
+    'Enemy2': 105,
+	'Enemy3': 95,
 }
 
 # M

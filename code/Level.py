@@ -23,7 +23,7 @@ class Level:
         """
         Inicializa o nível com base no nome e no modo de jogo.
         """
-        self.timeout = TIMEOUT_LEVEL3 if name == 'Level3' else TIMEOUT_LEVEL
+        self.timeout = TIMEOUT_LEVEL3 if name == 'Level3' else TIMEOUT_LEVEL #Diferenciação do tempo do level 3 para os demais
         self.window = window
         self.name = name
         self.game_mode = game_mode
@@ -104,7 +104,7 @@ class Level:
             # Verifica se os jogadores ainda estão vivos
             found_player = any(isinstance(ent, Player) for ent in self.entity_list)
             if not found_player:
-                return False
+                return "GAME_OVER"  # Retorna a flag de Game Over caso o jogador morra
 
             # HUD e atualizações visuais
             self.level_text(14, f'{self.name} - Timeout: {self.timeout / 1000:.1f}s', C_WHITE, (10, 5))

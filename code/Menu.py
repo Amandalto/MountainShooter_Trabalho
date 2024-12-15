@@ -23,8 +23,8 @@ class Menu:
             self.window.blit(source=self.surf, dest=self.rect)
             self.menu_text(50, "Mountain", C_ORANGE, ((WIN_WIDTH / 2), 70))
             self.menu_text(50, "Shooter", C_ORANGE, ((WIN_WIDTH / 2), 120))
-            self.menu_text(11, "Amanda Lopes Teixeira de Oliveira - RU: 4529815", C_BLUE, (165, 10))
-            self.menu_text(11, "Milene Justo da Silva - RU: 4531377", C_BLUE, (125, 30))
+            self.menu_text(11, "Amanda Lopes Teixeira de Oliveira - RU: 4529815", C_BLUE, (165, 10)) #Nome e RU adicionado
+            self.menu_text(11, "Milene Justo da Silva - RU: 4531377", C_BLUE, (125, 30)) #Nome e RU adicionado
 
 
             for i in range(len(MENU_OPTION)):
